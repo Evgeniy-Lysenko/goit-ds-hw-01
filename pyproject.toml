@@ -1,12 +1,12 @@
 [project]
 name = "goit-ds-hw-01"
-version = "0.1.0"
+version = "0.3.0"
 description = ""
 authors = [
     {name = "Евгений Лысенко",email = "udjiedwards@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = "==3.12.*"
 dependencies = [
 ]
 
@@ -16,3 +16,6 @@ packages = [{include = "goit_ds_hw_01", from = "src"}]
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[project.scripts]
+contact-bot = "goit_ds_hw_01.contact_bot:main"
