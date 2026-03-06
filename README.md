@@ -27,6 +27,7 @@ Python 3.12
 pyproject.toml
 
 ### Структура проєкту
+```
 goit-ds-hw-01/
 │
 ├── pyproject.toml
@@ -36,7 +37,7 @@ goit-ds-hw-01/
 └── src/
     └── goit-ds-hw-01/
         └── contact_bot.py
-
+```
 Структура src використовується відповідно до рекомендацій Python packaging.
 
 ## Встановлення залежностей
