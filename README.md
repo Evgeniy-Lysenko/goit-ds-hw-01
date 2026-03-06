@@ -99,8 +99,9 @@ contact_bot_docker/
 
 Якщо контейнер вже працює, можна підключитися до нього:
 
-docker exec -it <container-id> /bin/bash
-Результат
+docker exec -it 'container-id' /bin/bash
+
+## Результат
 
 ### Реалізовано:
 
